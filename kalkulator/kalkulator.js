@@ -26,7 +26,7 @@ calculate.addEventListener('click', () => {
     case '%':
       res = num1 % num2;
       break;
-  }
+}
 
   result.textContent = res;
 });
