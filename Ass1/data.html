@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peminjam Buku</title>
+</head>
+<body>
+    <h1>Peminjam Buku</h1>
+    <hr>
+    <div style="margin-bottom: 10px;"> 
+    <img src="profil.jpeg" width="100px" height="100px">
+    <br>
+    Nama: Syarif Jumhur Annabil
+    <BR>
+    Kelas: D3SI-46-01
+    <br>
+    NIM: 6701220107
+</div>
+<div class="form">
+    <label for="jumlah">Jumlah:</label>
+    <input type="number" id="jumlah">
+    <label for="buku">Pilih Buku:</label>
+    <select id="buku">
+        <option value=" "> </option>
+        <option value="sherlock">Sherlock</option>
+        <option value="lupin">Lupin</option>
+        <option value="aladin">Aladin</option>
+    </select>
+    <button onclick="pinjamBuku()">Cek</button>
+</div>
+</div>
+<script src="data.js"></script>
+</body>
+</html>
